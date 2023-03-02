@@ -2,7 +2,7 @@
   "name": "mono-clone",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://github.io/okoyedav7/continents-Map.git",
+  "homepage": "https://github.io/okoyedav7/continents-Map",
   "dependencies": {
     "bootstrap": "^5.2.3",
     "lodash": "^4.17.21",
