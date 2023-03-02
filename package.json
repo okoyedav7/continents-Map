@@ -2,6 +2,7 @@
   "name": "mono-clone",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://github.io/okoyedav7/continents-Map.git",
   "dependencies": {
     "bootstrap": "^5.2.3",
     "lodash": "^4.17.21",
@@ -12,8 +13,13 @@
   },
   "scripts": {
     "start": "react-scripts start",
+    "predeploy" : "npm run build",
+    "deploy" : "gh-pages -d build",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
+  },
+  "devDependencies": {
+    "gh-pages": "^5.0.0"
   }
 }
